@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone - Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">⚡ TechZone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="mb-4">Nuestro Catálogo <span class="badge bg-secondary">Nuevos Ingresos</span></h2>
+
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none">Inicio</a></li>
+                    <li class="breadcrumb-item active">Productos</li>
+                </ol>
+            </nav>
+            <div class="dropdown">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Filtrar por
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Precio: Menor a Mayor</a></li>
+                    <li><a class="dropdown-item" href="#">Más vendidos</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Macbook">
+                    <div class="card-body">
+                        <h5 class="card-title">Laptop Developer</h5>
+                        <p class="card-text">Potencia bruta para compilar código rápido. 32GB RAM.</p>
+                        <span class="badge bg-success">En Stock</span>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <button class="btn btn-primary w-100">Ver Detalles</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Monitor">
+                    <div class="card-body">
+                        <h5 class="card-title">Monitor UltraWide</h5>
+                        <p class="card-text">Más espacio para tus ventanas de código y documentación.</p>
+                        <span class="badge bg-warning text-dark">Pocas unidades</span>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <button class="btn btn-primary w-100">Ver Detalles</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-danger text-white">¡OFERTA!</div>
+                    <img src="https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Teclado">
+                    <div class="card-body">
+                        <h5 class="card-title">Teclado Mecánico RGB</h5>
+                        <p class="card-text">Switches Cherry MX Blue. El sonido que amamos.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <button class="btn btn-primary w-100">Ver Detalles</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="mt-5">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled"><a class="page-link" href="#">Anterior</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <footer class="text-white text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 TechZone - Proyecto Desarrollo Web 3er Semestre</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
